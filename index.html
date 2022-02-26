@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random User Genaretor</title>
+    <link rel="stylesheet" href="css/random-users.css" />
+    <script
+      src="https://kit.fontawesome.com/78a2c54303.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section>
+      <div class="random-user">
+        <div class="user-top-info">
+          <img
+            id="user-image"
+            src="https://randomuser.me/api/portraits/men/71.jpg"
+          />
+          <div class="info-top-bottom">
+            <span id="user-name">Mr Livio Legrand</span>
+            <span>|</span>
+            <span id="user-gender">Male</span>
+          </div>
+        </div>
+        <div class="user-bottom-info">
+          <p class="info-content" id="email">
+            <i class="fa-solid fa-envelope"></i>Email :
+            <span id="user-email">alicia.chu@example.com</span>
+          </p>
+          <p class="info-content" id="cellphone">
+            <i class="fa-solid fa-phone"></i>Phone :
+            <span id="user-phone">348-648-5090</span>
+          </p>
+          <p class="info-content" id="location">
+            <i class="fa-solid fa-location-dot"></i>Location :
+            <span id="user-location">Canada</span>
+          </p>
+        </div>
+      </div>
+      <button onclick="randomUser()" id="new-user">New User</button>
+    </section>
+    <script src="js/random-users.js"></script>
+  </body>
+</html>
